@@ -4,6 +4,11 @@ import CustomLink from "../CustomLink/CustomLink";
 import "./Header.css";
 const Header = () => {
   const [open, setOpen] = useState(false);
+
+  const clickHandler = () => {
+    setOpen(!open);
+  };
+
   return (
     <div className="bg-slate-300 ">
       <nav className="flex justify-between items-center  py-3   md:container md:mx-auto">
@@ -13,7 +18,7 @@ const Header = () => {
           </div>
         </div>
         <div
-          onClick={() => setOpen(!open)}
+          onClick={() => clickHandler()}
           className="menu-icon mr-3 w-6 h-6 md:hidden cursor-pointer"
         >
           {open ? <XIcon></XIcon> : <MenuIcon></MenuIcon>}
