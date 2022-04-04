@@ -14,7 +14,7 @@ const AreaChart = () => {
   const chartData = useContext(chartContext);
   return (
     <div className="border-4 m-5 mx-auto rounded-md p-3">
-      <BarChart width={420} height={350} data={chartData}>
+      <BarChart width={320} height={350} data={chartData}>
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="month" />
         <YAxis />
