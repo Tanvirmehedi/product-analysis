@@ -24,7 +24,7 @@ const PiChart = () => {
           cy="50%"
           innerRadius={60}
           outerRadius={80}
-          fill="#82ca9d"
+          fill="#7A3F32"
           label
         />
         <Tooltip />

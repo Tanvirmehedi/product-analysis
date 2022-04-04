@@ -1,5 +1,7 @@
 import React, { createContext, useEffect, useState } from "react";
 import AreaChart from "../../contents/AreaChart/AreaChart";
+import CampChart from "../../contents/CampChart/CampChart";
+import LinePart from "../../contents/LinePart/LinePart";
 import PiChart from "../../contents/PiChart/PiChart";
 
 export const chartContext = createContext();
@@ -21,6 +23,8 @@ const Dashboard = () => {
         <div className="grid grid-cols-1 gap-3 md:grid-cols-2 md:container mx-auto">
           <PiChart></PiChart>
           <AreaChart></AreaChart>
+          <LinePart></LinePart>
+          <CampChart></CampChart>
         </div>
       </chartContext.Provider>
     </>
