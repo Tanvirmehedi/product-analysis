@@ -10,7 +10,7 @@ const Header = () => {
   };
 
   return (
-    <div className="bg-slate-300 ">
+    <div className="bg-slate-300 sticky top-0 z-50">
       <nav className="flex justify-between items-center  py-3   md:container md:mx-auto">
         <div className="logo pl-3">
           <div className="Font__Glitch text-2xl md:text-3xl ">
