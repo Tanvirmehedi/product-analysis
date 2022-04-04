@@ -15,7 +15,7 @@ const Branding = () => {
           <h2 className="text-3xl font-semibold my-3">
             Book That Create Your Vision.
           </h2>
-          <p className="md:w-9/12 md:mx-auto my-3">
+          <p className="md:w-9/12 md:mx-auto my-3 text-center">
             Written by Brazilian author Paulo Coelho in 1988. It was initially
             written and published in Portuguese. It is an international
             bestseller and has been translated to more than 70 languages. The
