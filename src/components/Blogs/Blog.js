@@ -21,8 +21,8 @@ const Blog = () => {
   return (
     <div className="min-h-screen flex items-center justify-center">
       <div className="grid md:grid-cols-3 md:container mx-auto gap-5 my-3 ">
-        {questionAnswer.map((data) => (
-          <div className="border rounded-md py-2 px-1 mx-3">
+        {questionAnswer.map((data, index) => (
+          <div className="border rounded-md py-2 px-1 mx-3" key={index}>
             <h3 className="bg-slate-500 text-slate-200 h-20 rounded-sm text-xl flex items-center justify-center">
               {data.question}
             </h3>
