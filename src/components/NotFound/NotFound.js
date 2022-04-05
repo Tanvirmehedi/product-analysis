@@ -12,7 +12,7 @@ const NotFound = () => {
         Back To Home
       </Link>
       <div className="flex justify-center items-center h-screen">
-        <img src={notFound} className="w-[80vw]" alt="Not Found" />
+        <img src={notFound} alt="Not Found" />
       </div>
     </>
   );
