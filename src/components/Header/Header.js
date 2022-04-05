@@ -1,5 +1,6 @@
 import { MenuIcon, XIcon } from "@heroicons/react/solid";
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import CustomLink from "../CustomLink/CustomLink";
 import "./Header.css";
 const Header = () => {
@@ -14,7 +15,7 @@ const Header = () => {
       <nav className="flex justify-between items-center  py-3   md:container md:mx-auto">
         <div className="logo pl-3">
           <div className="Font__Glitch text-2xl md:text-3xl ">
-            The Alchemist
+            <Link to="/">The Alchemist</Link>
           </div>
         </div>
         <div
